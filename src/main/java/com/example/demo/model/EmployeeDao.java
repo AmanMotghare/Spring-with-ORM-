@@ -34,7 +34,7 @@ public class EmployeeDao {
 		return e;
 	}
 	
-	//readall
+	//readAll
 	public List<Employee> getallEmp() {
 		List<Employee> list = new ArrayList<Employee>();
 		list=template.loadAll(Employee.class);
